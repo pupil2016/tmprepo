@@ -1,15 +1,17 @@
 <kml xmlns="http://earth.google.com/kml/2.0">
 <Document><name>I4 Spot Beam Map at 98W</name>
-      <Style id="regional"><PolyStyle><color>fffff000</color><fill>0</fill><outline>0</outline>
+      <Style id="Beams"><PolyStyle><color>7f7070ff</color><fill>0</fill><outline>1</outline>
+               </PolyStyle><LineStyle><color>fffc80ff</color>
+               </LineStyle>
+            </Style><Style id="CtrIcon"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/N.png</href>
+                  </Icon>
+               </IconStyle>
+            </Style><Style id="regional"><PolyStyle><color>fffff000</color><fill>0</fill><outline>0</outline>
       </PolyStyle><LineStyle><width>4</width><color>ffff00ff</color>
       </LineStyle>
     </Style><Style id="narrow"><PolyStyle><color>fffff000</color><fill>0</fill><outline>1</outline>
       </PolyStyle><LineStyle><width>2</width><color>ffff9900</color>
       </LineStyle>
-    </Style>
-    <Style id="Beams"><PolyStyle><color>7f7070ff</color><fill>0</fill><outline>1</outline>
-       </PolyStyle><LineStyle><color>fffc80ff</color>
-       </LineStyle>
     </Style>
             <Style id="icon_regional">
     </Style><Style id="icon_narrow">
@@ -23,7 +25,25 @@
           </outerBoundaryIs>
         </Polygon>
       </Placemark><Placemark><name>P 1 B 20</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-167,-22,0 </coordinates></Point><altitudeMode>relativeToGround</altitudeMode></Placemark>
-    </Folder><Folder><name>Narrow Beam 2(PCS) 21(BGAN)</name><Placemark><name>P 2 B 21</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
+    </Folder></Folder><Folder><name>Spot Beam 2</name><Placemark><name>Spot Beam 2</name><description>Satellite Alphasat, Spot Beam 2</description><styleUrl>#Beams</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>-22.0,-12.0,0 -21.495,-11.704,0 -20.992,-11.406,0 -20.49,-11.108,0 -19.988,-10.809,0 -19.488,-10.51,0 -18.988,-10.209,0 -18.49,-9.908,0 -17.992,-9.606,0 -17.496,-9.303,0 -17.0,-9.0,0 -17.0,-9.0,0 -17.502,-8.803,0 -18.004,-8.605,0 -18.505,-8.406,0 -19.006,-8.207,0 -19.506,-8.008,0 -20.006,-7.807,0 -20.505,-7.606,0 -21.004,-7.405,0 -21.502,-7.203,0 -22.0,-7.0,0 -22.0,-7.0,0 -22.9,-7.008,0 -23.8,-7.014,0 -24.7,-7.018,0 -25.6,-7.021,0 -26.5,-7.021,0 -27.4,-7.021,0 -28.3,-7.018,0 -29.2,-7.014,0 -30.1,-7.008,0 -31.0,-7.0,0 -31.0,-7.0,0 -30.901,-7.5,0 -30.802,-8.0,0 -30.703,-8.5,0 -30.603,-9.0,0 -30.504,-9.5,0 -30.404,-10.0,0 -30.303,-10.5,0 -30.202,-11.0,0 -30.101,-11.5,0 -30.0,-12.0,0 -30.0,-12.0,0 -29.2,-12.01,0 -28.4,-12.018,0 -27.6,-12.024,0 -26.8,-12.027,0 -26.0,-12.028,0 -25.2,-12.027,0 -24.4,-12.024,0 -23.6,-12.018,0 -22.8,-12.01,0 -22.0,-12.0,0 </coordinates>
+						        </LinearRing>
+					        </outerBoundaryIs><altitudeMode>relativeToGround</altitudeMode>
+				        </Polygon>
+			    </Placemark><Placemark><name>Spot Beam 2</name><styleUrl>#CtrIcon</styleUrl><Point><coordinates>-24.909,-9.424,0</coordinates><altitudeMode>relativeToGround</altitudeMode>
+                  </Point>
+               </Placemark><Placemark><name>lon:-22,lat:-12</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-22,-12</coordinates><altitudeMode>relativeToGround</altitudeMode>
+                  </Point>
+               </Placemark><Placemark><name>lon:-17,lat:-9</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-17,-9</coordinates><altitudeMode>relativeToGround</altitudeMode>
+                  </Point>
+               </Placemark><Placemark><name>lon:-22,lat:-7</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-22,-7</coordinates><altitudeMode>relativeToGround</altitudeMode>
+                  </Point>
+               </Placemark><Placemark><name>lon:-31,lat:-7</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-31,-7</coordinates><altitudeMode>relativeToGround</altitudeMode>
+                  </Point>
+               </Placemark><Placemark><name>lon:-30,lat:-12</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-30,-12</coordinates><altitudeMode>relativeToGround</altitudeMode>
+                  </Point>
+               </Placemark></Folder>
+
+<Folder><name>Narrow Beam 2(PCS) 21(BGAN)</name><Placemark><name>P 2 B 21</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
 -152,-15,0 -152.51,-14.6,0 -153.01,-14.21,0 -153.52,-13.81,0 -154.02,-13.41,0 -154.52,-13.01,0 -155.02,-12.61,0 -155.52,-12.21,0 -156.01,-11.81,0 -156.51,-11.4,0 -157,-11,0 -158.6,-11.04,0 -160.2,-11.07,0 -161.8,-11.09,0 -163.4,-11.1,0 -165,-11.11,0 -166.6,-11.1,0 -168.2,-11.09,0 -169.8,-11.07,0 -171.4,-11.04,0 -173,-11,0 -173,-11.8,0 -173,-12.6,0 -173,-13.4,0 -173,-14.2,0 -173,-15,0 -173,-15.8,0 -173,-16.6,0 -173,-17.4,0 -173,-18.2,0 -173,-19,0 -172,-19.02,0 -171,-19.04,0 -170,-19.06,0 -169,-19.06,0 -168,-19.07,0 -167,-19.06,0 -166,-19.06,0 -165,-19.04,0 -164,-19.02,0 -163,-19,0 -161.88,-18.63,0 -160.76,-18.25,0 -159.65,-17.86,0 -158.54,-17.47,0 -157.44,-17.07,0 -156.34,-16.67,0 -155.25,-16.26,0 -154.16,-15.85,0 -153.08,-15.43,0 -152,-15,0  
 </coordinates>
             </LinearRing>
