@@ -1,18 +1,19 @@
-<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>I4 Spot Beam Map at 98W</name><Style id="regional"><PolyStyle><color>fffff000</color><fill>0</fill><outline>0</outline>
+<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>I4 Spot Beam Map at 98W</name><open>1</open><Folder><Style id="regional"><PolyStyle><color>fffff000</color><fill>0</fill><outline>0</outline>
       </PolyStyle><LineStyle><width>4</width><color>ffff00ff</color>
       </LineStyle>
     </Style><Style id="narrow"><PolyStyle><color>fffff000</color><fill>0</fill><outline>1</outline>
       </PolyStyle><LineStyle><width>2</width><color>ffff9900</color>
       </LineStyle>
-    </Style><Style id="icon_regional">
-    </Style><Style id="icon_narrow">
-    </Style><Folder><name>Narrow Beam 1(PCS) 20(BGAN)</name><Placemark><name>P 1 B 20</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
+    </Style><Style id="CtrIcon"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/N.png</href>
+                  </Icon>
+               </IconStyle>
+            </Style><Folder><name>Narrow Beam 1(PCS) 20(BGAN)</name><Placemark><name>P 1 B 20</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
 -158,-24,0 -158.52,-23.51,0 -159.03,-23.01,0 -159.54,-22.52,0 -160.04,-22.02,0 -160.54,-21.52,0 -161.04,-21.02,0 -161.54,-20.52,0 -162.03,-20.01,0 -162.51,-19.51,0 -163,-19,0 -164,-19.02,0 -165,-19.04,0 -166,-19.06,0 -167,-19.06,0 -168,-19.07,0 -169,-19.06,0 -170,-19.06,0 -171,-19.04,0 -172,-19.02,0 -173,-19,0 -172.9,-19.8,0 -172.81,-20.6,0 -172.71,-21.4,0 -172.61,-22.2,0 -172.51,-23,0 -172.41,-23.8,0 -172.31,-24.6,0 -172.21,-25.4,0 -172.11,-26.2,0 -172,-27,0 -170.57,-26.76,0 -169.15,-26.51,0 -167.73,-26.24,0 -166.32,-25.96,0 -164.91,-25.67,0 -163.51,-25.36,0 -162.12,-25.04,0 -160.74,-24.7,0 -159.37,-24.36,0 -158,-24,0  
 </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark><Placemark><name>P 1 B 20</name><styleUrl>#icon_narrow</styleUrl><Point><coordinates>-167,-22,0 </coordinates>
+      </Placemark><Placemark><name>P 1 B 20</name><styleUrl>#CtrIcon</styleUrl><Point><coordinates>-167,-22,0 </coordinates>
         </Point>
       </Placemark>
     </Folder><Folder><name>Narrow Beam 2(PCS) 21(BGAN)</name><Placemark><name>P 2 B 21</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
@@ -21,8 +22,9 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark><Placemark><name>P 2 B 21</name><styleUrl>#icon_narrow</styleUrl><Point><coordinates>-164,-15,0 </coordinates>
+      </Placemark><Placemark><name>P 2 B 21</name><styleUrl>#CtrIcon</styleUrl><Point><coordinates>-164,-15,0 </coordinates>
         </Point>
       </Placemark>
+    </Folder>
     </Folder>
 </Document></kml>
