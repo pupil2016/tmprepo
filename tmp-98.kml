@@ -1,4 +1,4 @@
-<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>I4 Spot Beam Map at 98W</name><Style id="regional"><PolyStyle><color>fffff000</color><fill>0</fill><outline>0</outline>
+<kml xmlns="http://earth.google.com/kml/2.0"><Document><name>I4 Spot Beam Map at 98W</name><open>1</open><Folder><Style id="regional"><PolyStyle><color>fffff000</color><fill>0</fill><outline>0</outline>
       </PolyStyle><LineStyle><width>4</width><color>ffff00ff</color>
       </LineStyle>
     </Style><Style id="narrow"><PolyStyle><color>fffff000</color><fill>0</fill><outline>1</outline>
@@ -1916,6 +1916,7 @@
       </Placemark><Placemark><name>P 255 B 1</name><styleUrl>#icon_regional</styleUrl><Point><coordinates>-47,24,0 </coordinates>
         </Point>
       </Placemark>
+    </Folder>
     </Folder>
   </Document>
 </kml>
