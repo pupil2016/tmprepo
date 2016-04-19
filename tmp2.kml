@@ -16,23 +16,7 @@
           </outerBoundaryIs>
         </Polygon>
       </Placemark><Placemark><name>P 1 B 20</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-167,-22,0 </coordinates></Point><altitudeMode>relativeToGround</altitudeMode></Placemark>
-    </Folder><Folder><name>Spot Beam 2</name><Placemark><name>Spot Beam 2</name><description>Satellite Alphasat, Spot Beam 2</description><styleUrl>#Beams</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>-22.0,-12.0,0 -21.495,-11.704,0 -20.992,-11.406,0 -20.49,-11.108,0 -19.988,-10.809,0 -19.488,-10.51,0 -18.988,-10.209,0 -18.49,-9.908,0 -17.992,-9.606,0 -17.496,-9.303,0 -17.0,-9.0,0 -17.0,-9.0,0 -17.502,-8.803,0 -18.004,-8.605,0 -18.505,-8.406,0 -19.006,-8.207,0 -19.506,-8.008,0 -20.006,-7.807,0 -20.505,-7.606,0 -21.004,-7.405,0 -21.502,-7.203,0 -22.0,-7.0,0 -22.0,-7.0,0 -22.9,-7.008,0 -23.8,-7.014,0 -24.7,-7.018,0 -25.6,-7.021,0 -26.5,-7.021,0 -27.4,-7.021,0 -28.3,-7.018,0 -29.2,-7.014,0 -30.1,-7.008,0 -31.0,-7.0,0 -31.0,-7.0,0 -30.901,-7.5,0 -30.802,-8.0,0 -30.703,-8.5,0 -30.603,-9.0,0 -30.504,-9.5,0 -30.404,-10.0,0 -30.303,-10.5,0 -30.202,-11.0,0 -30.101,-11.5,0 -30.0,-12.0,0 -30.0,-12.0,0 -29.2,-12.01,0 -28.4,-12.018,0 -27.6,-12.024,0 -26.8,-12.027,0 -26.0,-12.028,0 -25.2,-12.027,0 -24.4,-12.024,0 -23.6,-12.018,0 -22.8,-12.01,0 -22.0,-12.0,0 </coordinates>
-						        </LinearRing>
-					        </outerBoundaryIs><altitudeMode>relativeToGround</altitudeMode>
-				        </Polygon>
-			    </Placemark><Placemark><name>Spot Beam 2</name><styleUrl>#CtrIcon</styleUrl><Point><coordinates>-24.909,-9.424,0</coordinates><altitudeMode>relativeToGround</altitudeMode>
-                  </Point>
-               </Placemark><Placemark><name>lon:-22,lat:-12</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-22,-12</coordinates><altitudeMode>relativeToGround</altitudeMode>
-                  </Point>
-               </Placemark><Placemark><name>lon:-17,lat:-9</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-17,-9</coordinates><altitudeMode>relativeToGround</altitudeMode>
-                  </Point>
-               </Placemark><Placemark><name>lon:-22,lat:-7</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-22,-7</coordinates><altitudeMode>relativeToGround</altitudeMode>
-                  </Point>
-               </Placemark><Placemark><name>lon:-31,lat:-7</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-31,-7</coordinates><altitudeMode>relativeToGround</altitudeMode>
-                  </Point>
-               </Placemark><Placemark><name>lon:-30,lat:-12</name><styleUrl>#VtxIcon</styleUrl><Point><coordinates>-30,-12</coordinates><altitudeMode>relativeToGround</altitudeMode>
-                  </Point>
-               </Placemark></Folder>
+    </Folder>
 
 <Folder><name>Narrow Beam 2(PCS) 21(BGAN)</name><Placemark><name>P 2 B 21</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
 -152,-15,0 -152.51,-14.6,0 -153.01,-14.21,0 -153.52,-13.81,0 -154.02,-13.41,0 -154.52,-13.01,0 -155.02,-12.61,0 -155.52,-12.21,0 -156.01,-11.81,0 -156.51,-11.4,0 -157,-11,0 -158.6,-11.04,0 -160.2,-11.07,0 -161.8,-11.09,0 -163.4,-11.1,0 -165,-11.11,0 -166.6,-11.1,0 -168.2,-11.09,0 -169.8,-11.07,0 -171.4,-11.04,0 -173,-11,0 -173,-11.8,0 -173,-12.6,0 -173,-13.4,0 -173,-14.2,0 -173,-15,0 -173,-15.8,0 -173,-16.6,0 -173,-17.4,0 -173,-18.2,0 -173,-19,0 -172,-19.02,0 -171,-19.04,0 -170,-19.06,0 -169,-19.06,0 -168,-19.07,0 -167,-19.06,0 -166,-19.06,0 -165,-19.04,0 -164,-19.02,0 -163,-19,0 -161.88,-18.63,0 -160.76,-18.25,0 -159.65,-17.86,0 -158.54,-17.47,0 -157.44,-17.07,0 -156.34,-16.67,0 -155.25,-16.26,0 -154.16,-15.85,0 -153.08,-15.43,0 -152,-15,0  
@@ -43,7 +27,9 @@
       </Placemark><Placemark><name>P 2 B 21</name><styleUrl>#icon_narrow</styleUrl><Point><coordinates>-164,-15,0 </coordinates>
         </Point>
       </Placemark>
-    </Folder><Folder><name>Narrow Beam 3(PCS) 22(BGAN)</name><Placemark><name>P 3 B 22</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
+    </Folder>
+
+<Folder><name>Narrow Beam 3(PCS) 22(BGAN)</name><Placemark><name>P 3 B 22</name><styleUrl>#narrow</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>
 -150,-7,0 -150.6,-6.7,0 -151.21,-6.41,0 -151.81,-6.11,0 -152.41,-5.81,0 -153.01,-5.51,0 -153.61,-5.21,0 -154.21,-4.91,0 -154.8,-4.6,0 -155.4,-4.3,0 -156,-4,0 -157.7,-4.02,0 -159.4,-4.03,0 -161.1,-4.04,0 -162.8,-4.04,0 -164.5,-4.04,0 -166.2,-4.04,0 -167.9,-4.04,0 -169.6,-4.03,0 -171.3,-4.02,0 -173,-4,0 -173,-4.7,0 -173,-5.4,0 -173,-6.1,0 -173,-6.8,0 -173,-7.5,0 -173,-8.2,0 -173,-8.9,0 -173,-9.6,0 -173,-10.3,0 -173,-11,0 -171.4,-11.04,0 -169.8,-11.07,0 -168.2,-11.09,0 -166.6,-11.1,0 -165,-11.11,0 -163.4,-11.1,0 -161.8,-11.09,0 -160.2,-11.07,0 -158.6,-11.04,0 -157,-11,0 -156.29,-10.61,0 -155.59,-10.21,0 -154.88,-9.81,0 -154.18,-9.42,0 -153.48,-9.02,0 -152.78,-8.62,0 -152.08,-8.21,0 -151.39,-7.81,0 -150.69,-7.41,0 -150,-7,0  
 </coordinates>
             </LinearRing>
